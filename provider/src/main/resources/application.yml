@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: provider-service # ·şÎñÃû³Æ
+  sleuth:
+    trace-id128: true
+    sampler:
+      probability: 0.1
+  zipkin:
+    base-url: http://127.0.0.1:9411
+server:
+  port: 8080
